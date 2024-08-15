@@ -582,6 +582,46 @@ button:focus {
   padding-left: 1px !important;
 }
 
+/* .kangaroo {
+  display: inline-block;
+  font-size: 2em;
+  animation: hop 6s infinite;
+}
+
+@keyframes hop {
+  0% { transform: translate(0, 0) scaleX(-1); }
+  12.5% { transform: translate(20px, -40px) scaleX(-1); }
+  25% { transform: translate(40px, 0) scaleX(-1); }
+  37.5% { transform: translate(60px, -40px) scaleX(-1); }
+  50% { transform: translate(80px, 0) scaleX(-1); }
+  62.5% { transform: translate(60px, -40px) scaleX(1); }
+  75% { transform: translate(40px, 0) scaleX(1); }
+  87.5% { transform: translate(20px, -40px) scaleX(1); }
+  100% { transform: translate(0, 0) scaleX(1); }
+} */
+
+.kangaroo {
+  display: inline-block;
+  font-size: 2em;
+  animation: hop 9.5s infinite;
+}
+
+@keyframes hop {
+  0% { transform: translate(0, 0) scaleX(-1); }
+  8.33% { transform: translate(20px, -40px) scaleX(-1); }
+  16.67% { transform: translate(40px, 0) scaleX(-1); }
+  25% { transform: translate(60px, -40px) scaleX(-1); }
+  33.33% { transform: translate(80px, 0) scaleX(-1); }
+  41.67% { transform: translate(100px, -40px) scaleX(-1); }
+  50% { transform: translate(120px, 0) scaleX(-1); }
+  58.33% { transform: translate(100px, -40px) scaleX(1); }
+  66.67% { transform: translate(80px, 0) scaleX(1); }
+  75% { transform: translate(60px, -40px) scaleX(1); }
+  83.33% { transform: translate(40px, 0) scaleX(1); }
+  91.67% { transform: translate(20px, -40px) scaleX(1); }
+  100% { transform: translate(0, 0) scaleX(1); }
+}
+
 @media (max-width: 767px) {
   .about-img {
     padding-top: 0 !important;

@@ -8,8 +8,9 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
+            {/* Introduction text */}
             Hi Everyone, I am <span className="purple">Dan </span>
-            from <span className="purple"> Melbourne, Australia.</span>
+            from <span className="purple"> Melbourne, Australia. </span>
             <br />
             I am currently second-year undergraduate student at <span className="purple">Swinburne University of Technology</span>.
             <br />
@@ -17,6 +18,7 @@ function AboutCard() {
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
+            {/* List of Activities and Hobbies */}
             <li className="about-activity">
               <ImPointRight /> Catching up Tech News 🗞️
             </li>
@@ -27,11 +29,11 @@ function AboutCard() {
               <ImPointRight /> Watching Soccer ⚽
             </li>
           </ul>
-
+      
+            {/* Quote */}
           <p style={{ color: "#50C878" }}>
             "Good things take time"{" "}
           </p>
-          <footer className="blockquote-footer">Dan</footer>
         </blockquote>
       </Card.Body>
     </Card>

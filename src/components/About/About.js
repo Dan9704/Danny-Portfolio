@@ -10,9 +10,11 @@ import Toolstack from "./Toolstack";
 function About() {
   return (
     <Container fluid className="about-section">
+      {/* Particle background effect  */}
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
+          {/* Column for the about card */}
           <Col
             md={7}
             style={{
@@ -26,6 +28,7 @@ function About() {
             </h1>
             <Aboutcard />
           </Col>
+          {/* Column for the laptop image */}
           <Col
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
@@ -34,15 +37,24 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
+        {/* Heading for professional skillset */}
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
-
+        <h3 className="project-heading">
+          Comming Soon ...
+        </h3>
+        {/* Tech stack component */}
         <Techstack />
 
+        {/* Heading for tools */}
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
+        <h3 className="project-heading">
+          Comming Soon ...
+        </h3>
+        {/* Tool stack component */}
         <Toolstack />
 
         <Github />
