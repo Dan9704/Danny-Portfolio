@@ -21,12 +21,8 @@ function Home() {
 
               <h1 className="heading-name">
                 I'm
-                <strong className="main-name"> Dac Tung Duong Nguyen</strong>
+                <strong className="main-name"> Dac Tung Duong (Dan) Nguyen</strong>
               </h1>
-
-              <h2 style={{ paddingTop: 10 }} className="heading-nickname">
-                       You guys can call me <strong className="nick-name">Dan</strong>
-              </h2>
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
