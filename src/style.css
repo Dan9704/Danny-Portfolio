@@ -682,7 +682,7 @@ button:focus {
 
 .like-btn {
   background-color: #50C878 !important;
-  border-color: #934cce5e !important;
+  border-color: #69ea555e !important;
   padding: 0.25rem 0.98rem !important;
   border-radius: 5px !important;
   line-height: 1.4 !important;
@@ -691,8 +691,8 @@ button:focus {
 
 .like-btn:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #55e3a686 !important;
+  border-color: #5be78586 !important;
 }
 
 .animate-like {
@@ -709,24 +709,26 @@ button:focus {
   }
 }
 
-.fork-btn {
+.github-btn {
   font-size: 1.1em !important;
   padding-top: 10px !important;
+  border: none !important;
 }
 
-.fork-btn-inner {
+.github-btn-inner {
   line-height: 1.4em !important;
-  background-color: #934cce5e !important;
+  background-color: #59f5945e !important;
+  border-color: #72ee5986 !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
 }
 
-.fork-btn-inner:hover {
+.github-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #63d34d86 !important;
+  border-color: #63d34d86 !important;
 }
-.fork-btn-inner::after {
+.github-btn-inner::after {
   display: none !important;
 }

@@ -6,20 +6,22 @@ import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
 import {
-  AiFillStar,
   AiOutlineHome,
-  AiOutlineFundProjectionScreen,
+  AiOutlineProject,
   AiOutlineUser,
+  AiFillGithub,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
+  // State to manage the expansion of the navbar
   const [expand, updateExpanded] = useState(false);
+  // State to manage the colour of the navbar when scrolling
   const [navColour, updateNavbar] = useState(false);
 
+  // This function is used to hand the scroll event
   function scrollHandler() {
     if (window.scrollY >= 20) {
       updateNavbar(true);
@@ -28,6 +30,7 @@ function NavBar() {
     }
   }
 
+  // This function is used to add the event listener
   window.addEventListener("scroll", scrollHandler);
 
   return (
@@ -38,9 +41,11 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
+        {/* Brand Logo */}
         <Navbar.Brand href="/" className="d-flex">
           <img src={logo} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
+        {/* Toogle button for responsive design like mobile devices */}
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -51,14 +56,17 @@ function NavBar() {
           <span></span>
           <span></span>
         </Navbar.Toggle>
+        {/* Collapsible Navbar */}
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
+            {/* Home Link */}
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
 
+            {/* About Link */}
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -69,19 +77,21 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            {/* Project Link */}
             <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
+                <AiOutlineProject
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
               </Nav.Link>
             </Nav.Item>
 
+            {/* Resume Link */}
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -92,14 +102,14 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item className="fork-btn">
+            {/* Github Button/Link */}
+            <Nav.Item className="github-btn">
               <Button
-                href="https://dan9704.github.io/"
+                href="https://github.com/Dan9704"
                 target="_blank"
-                className="fork-btn-inner"
+                className="github-btn-inner"
               >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
+                <AiFillGithub style={{ fontSize: "1.2em" }} />{" "}
               </Button>
             </Nav.Item>
           </Nav>
