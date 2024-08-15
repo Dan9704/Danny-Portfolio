@@ -16,24 +16,24 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              ALLOW ME TO <span className="purple"> INTRODUCE </span> A BIT ABOUT MYSELF
+              ALLOW ME TO <span className="green"> INTRODUCE </span> A BIT ABOUT MYSELF
             </h1>
             <p className="home-about-body">
-              I’m an enthusiastic second-year <i><b className="purple"> Computer Science </b></i>&nbsp; student with a strong foundation in <i><b className="purple">software development</b></i>&nbsp; and a budding passion for web development. 🖥️
+              I’m an enthusiastic second-year <i><b className="green"> Computer Science </b></i>&nbsp; student with a strong foundation in <i><b className="green">software development</b></i>&nbsp; and a budding passion for web development. 🖥️
               <br />
               <br />I am well-versed in languages like
               <i>
-                <b className="purple"> C++ and Javascript. </b>
+                <b className="green"> C++ and Javascript. </b>
               </i>
               <br />
               <br />
-              I channel my passion onto developing commercial-grade products using <i><b className="purple"> Node.js </b></i>&nbsp; and JavaSript libraries and Frameworks like <i><b className="purple"> React.js </b></i>&nbsp; and <i><b className="purple"> Next.js </b></i>&nbsp;. 🚀
+              I channel my passion onto developing commercial-grade products using <i><b className="green"> Node.js </b></i>&nbsp; and JavaSript libraries and Frameworks like <i><b className="green"> React.js </b></i>&nbsp; and <i><b className="green"> Next.js </b></i>&nbsp;. 🚀
               <br />
               <br />
-              I’m particularly passionate about solving <i><b className="purple">real-world problems</b></i>&nbsp; and am eager to gain hands-on experience in a forward-thinking tech environment.
+              I’m particularly passionate about solving <i><b className="green">real-world problems</b></i>&nbsp; and am eager to gain hands-on experience in a forward-thinking tech environment.
               <br />
               <br />
-              And when I’m not coding, I enjoy crafting an excellent cup of coffee, drawing on my great <i><b className="purple">coffee-making skills</b></i>&nbsp;.
+              And when I’m not coding, I enjoy crafting an excellent cup of coffee, drawing on my great <i><b className="green">coffee-making skills</b></i>&nbsp;.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -46,7 +46,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>CONTACT ME ON</h1>
             <p>
-              Feel free to <span className="purple">reach out </span>with me
+              Feel free to <span className="green">reach out </span>with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
