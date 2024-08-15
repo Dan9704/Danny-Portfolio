@@ -41,9 +41,6 @@ function About() {
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
-        <h3 className="project-heading">
-          Comming Soon ...
-        </h3>
         {/* Tech stack component */}
         <Techstack />
 
@@ -51,9 +48,6 @@ function About() {
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
-        <h3 className="project-heading">
-          Comming Soon ...
-        </h3>
         {/* Tool stack component */}
         <Toolstack />
 

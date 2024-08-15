@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             {/* Introduction text */}
             Hi Everyone, I am <span className="purple">Dan </span>
-            from <span className="purple"> Melbourne, Australia. </span>
+            from <span className="purple"> Melbourne, Australia. <span className="hi-icon" role="img" aria-labelledby="hi-icon">👋</span></span>
             <br />
             I am currently second-year undergraduate student at <span className="purple">Swinburne University of Technology</span>.
             <br />
@@ -41,3 +41,6 @@ function AboutCard() {
 }
 
 export default AboutCard;
+
+
+
