@@ -32,7 +32,7 @@ function AboutCard() {
       
             {/* Quote */}
           <p style={{ color: "#50C878" }}>
-            "Good things take time"{" "}
+            "Good things take time."{" "}
           </p>
         </blockquote>
       </Card.Body>
