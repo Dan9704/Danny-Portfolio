@@ -16,7 +16,7 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              ALLOW ME TO <span className="green"> INTRODUCE </span> A BIT ABOUT MYSELF
+              LET ME <span className="green"> INTRODUCE </span> ABOUT MYSELF
             </h1>
             <p className="home-about-body">
               I’m an enthusiastic second-year <i><b className="green"> Computer Science </b></i>&nbsp; student with a strong foundation in <i><b className="green">software development</b></i>&nbsp; and a budding passion for web development. 🖥️
@@ -44,7 +44,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>CONTACT ME ON</h1>
+            <h1>CONTACT ME</h1>
             <p>
               Feel free to <span className="green">reach out </span>with me
             </p>
@@ -71,7 +71,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/dac-tung-duong-nguyen-6aa823194/"
+                  href="https://www.linkedin.com/in/duong-danny-nguyen/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

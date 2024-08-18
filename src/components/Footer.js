@@ -14,11 +14,11 @@ function Footer() {
       <Row>
         {/* Column for the dev credit */}
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Dan Nguyen</h3>
+          <h3>Designed and Developed by Danny Nguyen</h3>
         </Col>
         {/* Column for the copyright in4 */}
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {2024} Dan</h3>
+          <h3>Copyright © {2024} Danny</h3>
         </Col>
         {/* Column for the social icons */}
         <Col md="4" className="footer-body">
@@ -48,7 +48,7 @@ function Footer() {
             {/* Icon for the LinkedIn */}
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/dac-tung-duong-nguyen-6aa823194/"
+                href="https://www.linkedin.com/in/duong-danny-nguyen/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
