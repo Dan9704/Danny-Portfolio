@@ -72,7 +72,7 @@ function Projects() {
             >
               <img 
                 align="center" 
-                src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=dan9704&repo=Olympic-Climber-Tracker-Application&theme=dracula" 
+                src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=dan9704&repo=Olympic-Climber-Tracker-Application&theme=synthwave" 
                 alt="Olympic Climber Tracker Application"
                 style={{ width: "100%", height: "auto", cursor: "pointer" }}
               />
