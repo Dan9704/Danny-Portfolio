@@ -94,6 +94,22 @@ function Projects() {
               />
             </a>
           </Col>
+
+          <Col md={4} className="project-card">
+            <a 
+              href="https://github.com/Dan9704/Riff-Rental-Application" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ display: "block" }}
+            >
+              <img 
+                align="center" 
+                src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=dan9704&repo=Riff-Rental-Application&theme=radical" 
+                alt="Advanced Cloud Architecture for Photo Album Application"
+                style={{ width: "100%", height: "auto", cursor: "pointer" }}
+              />
+            </a>
+          </Col>
         </Row>
       </Container>
     </Container>
