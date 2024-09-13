@@ -105,7 +105,7 @@ function Projects() {
               <img 
                 align="center" 
                 src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=dan9704&repo=Riff-Rental-Application&theme=radical" 
-                alt="Advanced Cloud Architecture for Photo Album Application"
+                alt="Riff Rental Application"
                 style={{ width: "100%", height: "auto", cursor: "pointer" }}
               />
             </a>
