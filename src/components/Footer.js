@@ -14,7 +14,7 @@ function Footer() {
       <Row>
         {/* Column for the dev credit */}
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Danny Nguyen</h3>
+          <h3>Designed and Developed by Danny</h3>
         </Col>
         {/* Column for the copyright in4 */}
         <Col md="4" className="footer-copywright">

@@ -19,7 +19,7 @@ function Home2() {
               LET ME <span className="green"> INTRODUCE </span> ABOUT MYSELF
             </h1>
             <p className="home-about-body">
-              I’m an enthusiastic second-year <i><b className="green"> Computer Science </b></i>&nbsp; student with a strong foundation in <i><b className="green">software development</b></i>&nbsp; and a budding passion for web development. 🖥️
+              I’m an enthusiastic <i><b className="green">software developer</b></i>&nbsp;. 🖥️
               <br />
               <br />I am well-versed in languages like
               <i>
@@ -33,7 +33,7 @@ function Home2() {
               I’m particularly passionate about solving <i><b className="green">real-world problems</b></i>&nbsp; and am eager to gain hands-on experience in a forward-thinking tech environment.
               <br />
               <br />
-              And when I’m not coding, I enjoy crafting an excellent cup of coffee, drawing on my great <i><b className="green">coffee-making skills</b></i>&nbsp;.
+              And when I’m not coding, I enjoy crafting an excellent cup of coffee, drawing on my <i><b className="green">coffee-making skills</b></i>&nbsp;.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
