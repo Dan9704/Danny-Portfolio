@@ -12,7 +12,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="green">Danny </span>
             from <span className="green"> Melbourne, Australia. <span className="hi-icon" role="img" aria-labelledby="hi-icon">👋</span></span>
             <br />
-            I am currently second-year undergraduate student at <span className="green">Swinburne University of Technology</span>.
+      
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
